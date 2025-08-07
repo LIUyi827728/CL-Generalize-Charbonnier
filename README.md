@@ -1,4 +1,4 @@
-# MATLAB CL-Ceneralize-Charbonnier Reconstruction with TIGRE
+# MATLAB CL-Generalize-Charbonnier Reconstruction with TIGRE
 
 ## Project Introduction
 This project implements a CT image reconstruction program using MATLAB and the TIGRE (Tomographic Iterative GPU-based Reconstruction Toolbox) library. It defines geometric parameters, loads data, generates projection data, and uses the Chambolle-Pock algorithm for image reconstruction. Finally, it evaluates the quality of the reconstructed images.
