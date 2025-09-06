@@ -1,11 +1,11 @@
 # MATLAB CL-Generalize-Charbonnier Reconstruction with TIGRE
 
 ## Project Introduction
-This project implements a CT image reconstruction program using MATLAB and the TIGRE (Tomographic Iterative GPU-based Reconstruction Toolbox) library. It defines geometric parameters, loads data, generates projection data, and uses the Chambolle-Pock algorithm for image reconstruction. Finally, it evaluates the quality of the reconstructed images.
+This project implements a CL image reconstruction program using MATLAB and the TIGRE (Tomographic Iterative GPU-based Reconstruction Toolbox) library. It defines geometric parameters, loads data, generates projection data, and uses the Chambolle-Pock algorithm for image reconstruction. Finally, it evaluates the quality of the reconstructed images.
 
 ## Code Functionality Overview
 1. **Initialization and Geometry Definition**:
-   - Defines the geometric parameters for CT scanning, including the distance from source to detector (DSD), distance from source to origin (DSO), detector parameters (number of pixels, pixel size, total detector size), and image parameters (number of voxels, voxel size, total image size).
+   - Defines the geometric parameters for CL scanning, including the distance from source to detector (DSD), distance from source to origin (DSO), detector parameters (number of pixels, pixel size, total detector size), and image parameters (number of voxels, voxel size, total image size).
    - Defines projection angles, including rotation angles and oblique incidence angles.
 2. **Data Loading and Projection Generation**:
    - Loads the data file `PCB2.mat` and performs transpose and type conversion on the data.
